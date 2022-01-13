@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compati  ble" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exam - Sign Up</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles/exam.css" />
+</head>
+
+<body>
+    <div class="main_container hidden">
+        <div id="myProgress">
+            <div id="myBar"></div>
+        </div>
+        <div class="exam_container ">
+            <div class="exam_question_bar">
+                <div class="question">
+
+                </div>
+                <div class="question_choices">
+                    <div class="list-group">
+                        <div class="list-group-item">
+                            <label class="rad-label">
+                                <input value="" type="radio" class="rad-input" name="rad" id="answer0" />
+                                <div class="rad-design"></div>
+                                <div id="answer0-text" class="rad-text"></div>
+                            </label>
+                        </div>
+                        <div class="list-group-item">
+                            <label class="rad-label">
+                                <input value="" type="radio" class="rad-input" name="rad" id="answer1" />
+                                <div class="rad-design"></div>
+                                <div id="answer1-text" class="rad-text"></div>
+                            </label>
+                        </div>
+                        <div class="list-group-item">
+                            <label class="rad-label">
+                                <input value="" type="radio" class="rad-input" name="rad" id="answer2" />
+                                <div class="rad-design"></div>
+                                <div id="answer2-text" class="rad-text"></div>
+                            </label>
+                        </div>
+                        <div class="list-group-item">
+                            <label class="rad-label">
+                                <input value="" type="radio" class="rad-input" name="rad" id="answer3" />
+                                <div class="rad-design"></div>
+                                <div id="answer3-text" class="rad-text"></div>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="controls">
+                    <div class="left_buttons ">
+                        <button disabled class="button previous btn-danger">Previous</button>
+                        <div data-index="" class="question_num"></div>
+                        <button class=" button next btn-success">Next</button>
+                    </div>
+                    <button data-index="" class="button mark btn-warning">Mark</button>
+                </div>
+                <div class="submit">
+                    <button class="submit_button">Submit</button>
+                </div>
+            </div>
+            <div class="exam_mark_bar">
+                <div class="timer_container">
+                    <div class="timer"></div>
+                </div>
+                <hr>
+
+                <h2 class="mark_header">Marked Questions</h2>
+                <hr>
+                <div class="marks">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="result_container hidden">
+        <div class="result-div">
+            <h5 class="result-header">Congratulations For Finishing The Exam </h5>
+            <h4 class="result-title"></h4>
+
+            <div class="body">Your Result Is: <span class="result-span"></span></div>
+        </div>
+    </div>
+
+    <script src="scripts/exam.js"></script>
+</body>
+
+</html>

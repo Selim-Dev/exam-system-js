@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compati  ble" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exam - Sign Up</title>
+
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="plugins/toastr.css" />
+    <link rel="stylesheet" href="styles/style.css" />
+</head>
+
+<body>
+    <!-- <video autoplay muted loop id="myVideo">
+      <source src="videos/study1.mp4" type="video/mp4" />
+      Your browser does not support HTML5 video.
+    </video> -->
+
+    <div class="main_container">
+        <!-- <div class="main-header">
+            <h1 class="header">Exam System Sign Up</h1>
+        </div> -->
+        <span class="animate" style="--count: 5"></span>
+        <span class="animate" style="--count: 3"></span>
+        <span class="animate" style="--count: 4"></span>
+        <span class="animate" style="--count: 2"></span>
+        <form id="register_form" action="" class="login_form">
+            <h1 class="login_form_title">Sign Up</h1>
+            <div>
+                <ul id="errors"></ul>
+            </div>
+            <div class="group">
+                <input id="first_name" type="text" name="first_name" required autocomplete="off" />
+                <label for="first_name">First Name</label>
+                <span class="icon">
+                    <i class="fa fa-user"></i>
+                </span>
+            </div>
+            <div class="group">
+                <input id="last_name" type="text" name="last_name" required autocomplete="off" />
+                <label for="last_name">Last Name</label>
+                <span class="icon">
+                    <i class="fa fa-user"></i>
+                </span>
+            </div>
+            <div class="group">
+                <input id="email" type="text" name="email" required autocomplete="off" />
+                <label for="email">Email</label>
+                <span class="icon">
+                    <i class="fa fa-envelope"></i>
+                </span>
+            </div>
+            <div class="group">
+                <input id="password" name="password" type="password" required />
+                <label for="password">Password</label>
+                <span class="icon">
+                    <i class="fa fa-key"></i>
+                </span>
+            </div>
+            <div class="group">
+                <input id="password_confirmation" name="password_confirmation" type="password" required />
+                <label for="password_confirmation">Password Confirmation</label>
+                <span class="icon">
+                    <i class="fa fa-key"></i>
+                </span>
+            </div>
+            <button type="submit">Sign Up Now!</button>
+        </form>
+    </div>
+    <script src="plugins/toastr.min.js"></script>
+    <script src="scripts/register.js"></script>
+    <script>
+        // var video = document.querySelector('#myVideo');
+        // window.onload = function() {
+        //     video.play();
+        // };
+        document.querySelector('.btn').addEventListener('click', function() {
+            toastr.success('Success messages');
+        });
+    </script>
+</body>
+
+</html>
