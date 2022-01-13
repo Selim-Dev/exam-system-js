@@ -344,17 +344,20 @@ body {
     .result-div {
         text-align: center;
         font-size: 1rem;
+        padding: 10px;
     }
     .result-header {
+        margin-top: 1rem;
         text-align: center;
         font-size: 1rem;
     }
     .result-title {
+        margin-top: 1rem;
         text-align: center;
         font-size: 1rem;
     }
     .result-span {
-        display: block;
+        font-size: 1.2rem;
     }
 }
 

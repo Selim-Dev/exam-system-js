@@ -53,7 +53,7 @@
         'Which of these is Asian Country ?', [
             new Choice(5, 'Brazil'),
             new Choice(6, 'Sudan'),
-            new Choice(7, 'china'),
+            new Choice(7, 'Taiwan'),
             new Choice(8, 'portugal'),
         ],
         2
