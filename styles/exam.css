@@ -342,13 +342,19 @@ body {
         font-size: 0.6rem;
     }
     .result-div {
+        text-align: center;
         font-size: 1rem;
     }
     .result-header {
+        text-align: center;
         font-size: 1rem;
     }
     .result-title {
+        text-align: center;
         font-size: 1rem;
+    }
+    .result-span {
+        display: block;
     }
 }
 
