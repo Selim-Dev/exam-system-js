@@ -341,6 +341,15 @@ body {
     .rad-text {
         font-size: 0.6rem;
     }
+    .result-div {
+        font-size: 1rem;
+    }
+    .result-header {
+        font-size: 1rem;
+    }
+    .result-title {
+        font-size: 1rem;
+    }
 }
 
 .mark_container {
